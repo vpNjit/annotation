@@ -1,7 +1,7 @@
 <h1>ANNOTATION</h1>
 <h2>Kitchen</h2>
 <p>To get the images needed for annotation we <b>web scraped</b> product pictures from <b>amazon</b></p>
-<img src="https://github.com/vpNjit/annotation/blob/main/img/kitchen.png"><br>
+<img src="https://github.com/vpNjit/annotation/blob/main/img/kitchen.png">
 
 <h2>Setting up DEXTR</h2>
 <p>In order to use the <b>DEXTR tool</b>, you will need to install <b>Anaconda</b> from their website: 
@@ -24,9 +24,9 @@ Go to the <b>start menu</b> and search for the <b>Anaconda prompt</b>. Launch it
 <br>To demonstrate using the <b>annotation</b> user interface use the command:
 <br><i>python annotate.py -c anno_cfg.yml</i>
 <br>For a computer with multiple <b>GPU’s</b> you can specify which one to use using the command:
-<br><i>CUDA_VISIBLE_DEVICES=0 python annotate.py -c anno_cfg.yml</i></p>
+<br><i>CUDA_VISIBLE_DEVICES=0 python annotate.py -c anno_cfg.yml</i></p><br>
 
-<b>Loading the images for annotation</b>
+<b>Loading the images for annotation</b><br>
 	<img src="https://github.com/vpNjit/annotation/blob/main/img/ann1.png"><br>
 <b>Creating labels</b><br>
 	<img src="https://github.com/vpNjit/annotation/blob/main/img/ann2.png"><br>
